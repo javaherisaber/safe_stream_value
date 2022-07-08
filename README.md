@@ -4,14 +4,14 @@
 Set of extensions to safely set value to stream controllers in flutter and rxDart
 
 ## What is safeValue?
-If you have an StreamController object and you close it and then try to set a value to it, 
+If you have an `StreamController` object and you close it and then try to set a value to it, 
 there will be an error indicating you cannot set value to already closed stream.
 
 That's the sole purpose of this library to check if stream is open and set value for you.
 
 ## Usage
 
-To use this plugin, add [widget_size](https://pub.dev/packages/safe_stream_value/install) as a dependency in your pubspec.yaml file.
+To use this plugin, add [safe_stream_value](https://pub.dev/packages/safe_stream_value/install) as a dependency in your pubspec.yaml file.
 
 ```yaml
 dependencies:

@@ -1,6 +1,6 @@
 name: safe_stream_value
 description: Set of extensions to safely set value to stream controllers in flutter and rxDart
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/javaherisaber/safe_stream_value
 
 environment:
